@@ -17,15 +17,188 @@ src:url('../fonts/signika-light.eot') format('embedded-opentype'),url('../fonts/
 }
 body{background: #3b9e82;font-family:'Signika','Arial';font-size:20px;color:#fff;}
 div.sl-header{
-font-size: 72px;
 text-shadow: 2px 1px #000000;
 padding: 10px;
 }
 .sl-centered{
 text-align:center;
 }
+.sl-tpadding20{padding-top:20px;}
+.sl-padding20{padding:20px;}
+.sl-coverpic img{
+height:200px;
+margin:10px;
+display:inline-block;
+-webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+}
+.sl-cs{
+font-family:'Signika-Light','Arial';text-shadow: 2px 1px #000000;
+}
+.sl-large-font{
+font-size: 72px;
+}
+.sl-large-font2{
+font-size: 64px;
+}
+.sl-address{
+display: inline-block;
+text-align: left;
+font-family:'Signika-Light','Arial';text-shadow: 2px 1px #000000;
+}
+.fa-map-marker{
+font-size: 120px;
+padding: 0 10px;
+text-shadow: 1px 2px rgba(0,0,0,0.4);
+color: #2C463E;
+}
+.sl-lpadding10{padding-left:10px;}
+.sl-link{
+text-decoration:none;
+color:#fff;
+}
+.sl-add-cont{display: inline-block;
+padding: 10px;-webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+box-shadow: rgba(0,0,0,0.3) 0 1px 3px;background:#297E66;border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;margin:20px;}
+.email-link{font-family:'Signika-Light','Arial';color: #2C463E;}
+.sl-address span.main{display:block;}
+.footer{
+padding:10px;
+font-family:'Signika-Light','Arial';
+}
 @media only screen and (max-width: 960px) {
-div.sl-header{
+.sl-large-font2,.sl-large-font{
 font-size: 50px;
 }
+}html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+@font-face {
+    font-family:'Signika';
+src:url('../fonts/signika-regular.eot') format('embedded-opentype'),url('../fonts/signika-regular.woff') format('woff'),url('../fonts/signika-regular.ttf') format('truetype'),url('../fonts/signika-regular.svg') format('svg');
+}
+
+@font-face {
+    font-family:'Signika-Bold';
+src:url('../fonts/signika-bold.eot') format('embedded-opentype'),url('../fonts/signika-bold.woff') format('woff'),url('../fonts/signika-bold.ttf') format('truetype'),url('../fonts/signika-bold.svg') format('svg');
+}
+
+@font-face {
+    font-family:'Signika-Light';
+src:url('../fonts/signika-light.eot') format('embedded-opentype'),url('../fonts/signika-light.woff') format('woff'),url('../fonts/signika-light.ttf') format('truetype'),url('../fonts/signika-light.svg') format('svg');
+}
+
+body {
+    background: #3b9e82;
+    font-family: 'Signika','Arial';
+    font-size: 20px;
+    color: #fff;
+}
+
+div.sl-header {
+    text-shadow: 2px 1px #000000;
+    padding: 10px;
+}
+
+.sl-centered {
+    text-align: center;
+}
+
+.sl-tpadding20 {
+    padding-top: 20px;
+}
+
+.sl-padding20 {
+    padding: 20px;
+}
+
+.sl-coverpic img {
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+    -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.sl-cs {
+    font-family: 'Signika-Light','Arial';
+    text-shadow: 2px 1px #000000;
+}
+
+.sl-large-font {
+    font-size: 72px;
+}
+
+.sl-large-font2 {
+    font-size: 64px;
+}
+
+.sl-address {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Signika-Light','Arial';
+    text-shadow: 2px 1px #000000;
+}
+
+.fa-map-marker {
+    font-size: 120px;
+    padding: 0 10px;
+    text-shadow: 1px 2px rgba(0,0,0,0.4);
+    color: #2C463E;
+}
+
+.sl-lpadding10 {
+    padding-left: 10px;
+}
+
+.sl-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sl-add-cont {
+    display: inline-block;
+    padding: 10px;
+    -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    background: #297E66;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 20px;
+}
+
+.email-link {
+    font-family: 'Signika-Light','Arial';
+    color: #2C463E;
+}
+
+.sl-address span.main {
+    display: block;
+}
+
+.footer {
+    padding: 10px;
+    font-family: 'Signika-Light','Arial';
+}
+
+@media only screen and (max-width: 960px) {
+    .sl-large-font2,.sl-large-font {
+        font-size: 50px;
+    }
 }
